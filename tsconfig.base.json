@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-test/api-interface": ["libs/api-interface/src/index.ts"],
+      "@nx-test/ui-header": ["libs/ui-header/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
